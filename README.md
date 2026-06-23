@@ -40,5 +40,6 @@ git remote add origin https://github.com/HuangEric22/personal_portfolio_ml.git
 git push -u origin main
 ```
 
-3. In the GitHub repository settings, set Pages to deploy from GitHub Actions.
-4. The workflow in `.github/workflows/deploy.yml` builds the site and publishes `dist`.
+3. In the GitHub repository settings, open **Settings > Pages**.
+4. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+5. The workflow in `.github/workflows/deploy.yml` builds the site and publishes `dist`.
